@@ -1,0 +1,298 @@
+
+
+.hero-wrapper{
+
+    max-width: 1670px;
+    padding: 10px 10px;
+    margin: auto;
+    border-radius: 20px;
+    background: #010047;
+
+}
+.container-lg{
+
+    max-width: 1570px;
+    padding: 10px 10px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.container-md{
+
+    max-width: 1100px;
+    padding: 10px 10px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.container-sml{
+
+    max-width: 1113px;
+    padding: 10px 10px;
+    margin: auto;
+}
+
+
+.logo{
+
+    width: 109px;
+    height: 17px;
+}
+
+.text-blue{
+
+    color: #010047;
+}
+
+.bg-yellow{
+
+    background: #FFFCB4;
+}
+
+.bg-blue{
+
+    background: #05038E;
+}
+.menu{
+    
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu a{
+
+    text-decoration: none;
+    color: white;
+}
+
+.nav-service{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav-contact{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 1px solid #FFF;
+    border-radius: 6px;
+    display: inline-flex;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.margin-top{
+
+    margin-top: 64px;
+}
+
+.hero{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content{
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.tagline{
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    padding: 3px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    border-radius: 3px;
+    background: #EF401F;
+
+}
+
+
+.heading{
+
+    width: 632px;
+    height: 134px;
+    color: #FFF;
+    font-family: Eina 03;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header-paragraph{
+
+    width: 632px;
+    height: 86px;
+    width: 632px;
+    height: 86px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.button-wrapper a{
+
+    text-decoration: none;
+
+}
+
+.services-btn {
+
+    color: #05038E;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #FFFCB4;
+}
+
+.contact-us-btn{
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #959595;
+}
+
+.hero-img{
+
+    width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+
+}
+
+
+.space-md{
+    padding: 21px;
+}
+
+.expertise{
+
+    text-align: center;
+    color: #010047;
+    font-family: Eina 03;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+
+ .expertise-logos {
+    display: inline-block;
+    vertical-align: middle;
+
+ }   
+
+.consultancy{
+
+    grid-column-gap: 6rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+}
+
+
+.consultancy-text h2{
+    width: 851px;
+    font-family: Eina 03;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.consultancy-text p{
+
+    width: 550px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.consultancy-blocks{
+
+    grid-row-gap: 20px;
+    flex-direction: column;
+    flex: 100%;
+    align-items: flex-start;
+    display: flex;
+}
+
+.block{
+
+    display: flex;
+    width: 250px;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 17px;
+    border-radius: 10px;
+}
+
+.header-block{
+
+    font-family: Eina 03;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.block p{
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+}
