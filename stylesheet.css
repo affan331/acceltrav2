@@ -1,6 +1,57 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: inter;
+    font-style: normal;
+    font-weight: 300;
+    src: url(./assets/Fonts/Inter/static/Inter-Light.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    font-style: normal;
+    font-weight: 400;
+    src: url(./assets/Fonts/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: Eina;
+    font-style: normal;
+    font-weight: 600;
+    src: url(./assets/Fonts/Eina03/Eina03-SemiBold.otf);
+}
+
+.hero-section{
+
+    margin: 50px;
+    border-radius: 20px;
+    background: #010047;
+    padding: 40px;
+   
+}
 
 
-.hero-wrapper{
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 100px;
+
+
+}
+
+
+
+
+
+/* .hero-wrapper{
 
     max-width: 1670px;
     padding: 10px 10px;
@@ -8,33 +59,31 @@
     border-radius: 20px;
     background: #010047;
 
-}
+} */
 .container-lg{
 
     max-width: 1570px;
     padding: 10px 10px;
-    margin: auto;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
+    width: 100%;
+    margin-inline: auto;
+    overflow: hidden;
 }
 
 .container-md{
 
     max-width: 1100px;
-    padding: 10px 10px;
-    margin: auto;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    box-sizing: border-box;
+    padding: 0px 10px;
+    margin-inline: auto;
+    overflow: hidden;
+   
 }
 
 .container-sml{
 
     max-width: 1113px;
-    padding: 10px 10px;
-    margin: auto;
+    padding: 10px;
+    margin-inline: auto;
+    overflow: hidden;
 }
 
 
@@ -48,6 +97,11 @@
 
     color: #010047;
 }
+.text-white{
+
+    color: #fff;
+}
+
 
 .bg-yellow{
 
@@ -60,15 +114,16 @@
 }
 .menu{
     
-    display: inline-flex;
+    display: flex;
     align-items: center;
     gap: 30px;
+    
 }
 
 .menu a{
 
     text-decoration: none;
-    color: white;
+   
 }
 
 .nav-service{
@@ -80,40 +135,47 @@
     line-height: normal;
 }
 
-.nav-contact{
+.is_contact{
     color: #FFF;
     font-family: Inter;
     font-size: 15px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 20px;
     border: 1px solid #FFF;
     border-radius: 6px;
-    display: inline-flex;
     padding: 10px 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    cursor: pointer;
+
 }
 
-.margin-top{
-
-    margin-top: 64px;
+.is_contact:hover, .contact-us-btn:hover{
+    background-color: #FFFCB4;
+    border-color: #FFFCB4;
+    color: #010047;
+    transition: all .1s ease-in-out;
 }
 
-.hero{
+
+.hero-wrapper{
     
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    gap: 120px;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
 }
 
 .hero-content{
 
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
+}
+.hero-content-wrapper{
+    flex: 1;
 }
 
 .tagline{
@@ -121,92 +183,74 @@
     color: #FFF;
     font-family: Inter;
     font-size: 10px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
-    display: flex;
     padding: 3px 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 22px;
     border-radius: 3px;
     background: #EF401F;
+    margin-bottom: 6px;
 
 }
 
 
-.heading{
+h1{
 
-    width: 632px;
-    height: 134px;
     color: #FFF;
-    font-family: Eina 03;
+    font-family: Eina;
     font-size: 52px;
-    font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
-.header-paragraph{
-
-    width: 632px;
-    height: 86px;
-    width: 632px;
-    height: 86px;
-    color: #FFF;
+.text-size-large{
     font-family: Inter;
     font-size: 19px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px; 
 }
+.hero_desc{
 
-.button-wrapper a{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 
-    text-decoration: none;
+.btn {
 
+    padding: 14px 36px;
+    border-radius: 6px;
+    font-family: inter;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .services-btn {
 
     color: #05038E;
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    display: inline-flex;
-    padding: 14px 36px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 6px;
     background: #FFFCB4;
+    border: 1px solid #FFFCB4;
 }
 
 .contact-us-btn{
 
     color: #FFF;
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    display: inline-flex;
-    padding: 14px 36px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 6px;
     border: 1px solid #959595;
+    background: transparent;
+}
+
+img{
+    max-width: 100%;
 }
 
 .hero-img{
 
-    width: 500px;
-    height: 500px;
-    flex-shrink: 0;
-
+    width: 400px;
+    height: 400;
+    flex: 1;
+}
+.hero-img img{
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -218,7 +262,7 @@
 
     text-align: center;
     color: #010047;
-    font-family: Eina 03;
+    font-family: Eina;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -233,25 +277,28 @@
 
 .consultancy{
 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 150px;
     grid-column-gap: 6rem;
     justify-content: space-between;
     align-items: flex-start;
     display: flex;
 }
 
-
 .consultancy-text h2{
-    width: 851px;
-    font-family: Eina 03;
+   
+    font-family: Eina;
     font-size: 46px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-bottom: 33px;
 }
 
 .consultancy-text p{
 
-    width: 550px;
+    
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -271,9 +318,7 @@
 .block{
 
     display: flex;
-    width: 250px;
     padding: 30px;
-    flex-direction: column;
     align-items: flex-start;
     gap: 17px;
     border-radius: 10px;
@@ -281,11 +326,12 @@
 
 .header-block{
 
-    font-family: Eina 03;
+    font-family: Eina;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-bottom: 17px;
 }
 
 .block p{
@@ -295,4 +341,149 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 133.333% */
+}
+
+
+@media(max-width: 1080px){
+    .hero-wrapper{
+        flex-direction: column;
+        gap: 80px;
+    }
+}
+
+.solutions{
+    margin-bottom: 145px;
+}
+
+.solutions-header{
+
+    padding-top: 80px;
+}
+
+
+.solutions-header h2{
+
+    text-align: center;
+    font-family: Eina;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.solutions-header p{
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.solutions-wrapper{
+
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 50px;
+}
+
+.is-heading{
+    font-family: Eina;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.is-para{
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 14px;
+}
+
+
+.btn-learn-more {
+
+    text-decoration: none;
+    color: #010047;
+    font-family: Eina;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    border: 1px solid #05038E;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+.box-9{
+    grid-column-start: 2;
+}
+
+.blog{
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.blog-tagline{
+
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+.blog-heading{
+
+    color: #010047;
+    font-family: Eina;
+    font-size: 18px;
+    margin-bottom: 50px;
+    
+}
+
+.blog-img-wrapper a{
+
+    text-decoration: none;
+}
+
+.blog-wrapper{
+
+    margin-top: 50px;
+}
+
+.ruler{
+    width: 100%;
+    height: 2px;
+    background-color: #ef401f;
+}
+
+.blog-img-wrapper{
+    display: flex;
+    gap: 30px;
+}
+
+footer{
+    background-color: black;
+    padding: 100px 0px;
+}
+.footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer_wrapper span{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inter;
 }
