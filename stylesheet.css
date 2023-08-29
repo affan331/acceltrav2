@@ -455,12 +455,20 @@ img{
 
     margin-top: 50px;
     align-items: center;
-    width: 1100px;
+    justify-content: center;
+
     height: auto;
     display: flex;   
     flex-wrap: wrap;
     gap: 30px;
 }
+
+.single-blog {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 22%;
+}
+
 
 .ruler{
     width: 100%;
@@ -468,11 +476,111 @@ img{
     background-color: #ef401f;
 }
 
+.form-bg{
+
+    background-color: #010047;
+}
+
+.form-header{
+
+    margin-top: 177px;
+}
 
 
-.single-blog {
-    flex: 3 1 20%;
-  }
+.form-header h2{
+
+    color: #FFF;
+    text-align: center;
+    font-family: Eina;
+    font-size: 46px;
+    font-weight: 600;
+
+}
+
+.form-header p{
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    margin: 20px 0px 20px 0px;
+}
+
+.form{
+
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+
+
+.text_form-tagline{
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.form-data-wrapper{
+    grid-column-gap: 80px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.form-sketch{
+
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px #000; 
+    border-bottom: 1px solid #fff; 
+    margin-bottom: 0.75rem;
+    padding: 0 0 1.5rem;
+    font-family: Inter, sans-serif;
+    width: 100%;
+    height: 38px;
+}
+
+ input:focus , textarea:focus{
+    outline: none;
+}
+
+.min-width {
+    min-width: 100%;
+}
+
+.min-height {
+    max-width: 100%;
+    min-height: 150px;
+    color: #fff;
+    padding-top: 0.5rem;
+}
+
+.form-button{
+    width: 300px;
+    margin-top: 66px;
+    padding: 14px 36px;
+    font-weight: 500;
+    display: block;
+    font-family: inter;
+    font-size: 15px;
+    color: #010047;
+    background-color: #fffcb4;
+    border: 1px solid #fffcb4;
+    border-radius: 6px;
+}
+
+.form-button:hover{
+
+    background-color: transparent;
+    color: #fffcb4;
+}
+
 
 footer{
     background-color: black;
@@ -490,6 +598,16 @@ footer{
     font-weight: 400;
     font-family: inter;
 }
+
+
+
+
+
+
+
+
+
+
 
 
  @media (max-width: 600px){
