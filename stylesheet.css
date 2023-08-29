@@ -563,7 +563,10 @@ img{
 
 .form-button{
     width: 300px;
+
     margin-top: 66px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 14px 36px;
     font-weight: 500;
     display: block;
@@ -573,6 +576,7 @@ img{
     background-color: #fffcb4;
     border: 1px solid #fffcb4;
     border-radius: 6px;
+
 }
 
 .form-button:hover{
