@@ -463,11 +463,13 @@ img{
 }
 
 .single-blog {
-    flex-grow: 0;
-    flex-shrink: 0;
+    /* flex-grow: 0;
+    flex-shrink: 0; */
     /* flex-basis: 22%;  */
     width: 22%;
     height: auto;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -646,9 +648,13 @@ footer{
     
     .single-blog{
 
-        width: 100% !important;
-        align-items: center;
-        justify-content: center;
+        width: 55% !important;
+        /* align-items: space-between;
+        justify-content: center; */
+    }
+
+    .ruler{
+       width: 70%;
     }
 
 
@@ -694,6 +700,11 @@ footer{
     .single-blog{
 
         width: 40%;
+    }
+
+
+    .ruler{
+        width: 75%;
     }
 
     /* .solutions-wrapper{
